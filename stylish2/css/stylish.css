@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+.menu{
+    position: fixed;
+    padding: 15px 15px ;
+    right: 20px;
+    top: 20px;
+    background-color: #6c757d;
+    border-radius: 6px;
+}
+.arrow{
+    position: fixed;
+    padding: 15px 15px ;
+    right: 20px;
+    bottom: 20px;
+    background-color: #6c757d;
+    border-radius: 6px;
+}
+
+
+.header{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: auto ;
+    padding: 14rem 0;
+    text-align: center;
+}
+.header h1{
+    color: #212529;
+    font-size: 88px;
+}
+.header h3{
+    color: #212529;
+font-size: 28px;
+margin-bottom: 50px;
+
+}
+.header-box{
+    transition: 0.7s;
+}
+.header-box:hover{
+    transform: scale(0.7);
+}
+.header-box a{
+    font-size: 18px;
+    background-color: #1d807f;
+    padding: 20px 40px;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none
+
+}
+.one{
+    text-align: center;
+    padding: 8rem 0;
+
+}
+.one h2{
+    font-size: 38px;
+    color: #212529;
+}
+.one p{
+    font-size: 20px;
+    color: #212529;
+    margin-bottom: 50px;
+}
+.one-box:hover{
+    transform: scale(0.7);
+}
+.one-box a{
+    font-size: 18px;
+    background-color: #212529;
+    padding: 20px 40px;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;    
+}
+.one-box {
+    transition: 0.7s;
+}
+.phone{
+    border-radius: 100%;
+    background-color: #ffffff;
+    padding: 35px 50px;
+    font-size: 5rem;
+}
+.pencil{
+    border-radius: 100%;
+    background-color: #ffffff;
+    padding: 35px 35px;
+    font-size: 5rem; 
+}
+.thumbs{
+    border-radius: 100%;
+    background-color: #ffffff;
+    padding: 35px 35px;
+    font-size: 5rem;
+
+}
+.biking{
+    border-radius: 100%;
+    background-color: #ffffff;
+    padding: 35px 25px;
+    font-size: 5rem;
+}
+.two .box {
+    margin-top: 60px;
+}
+.two{
+    background-color: #1d807f;
+    padding: 7rem 0;
+    overflow: hidden;
+}
+.two-text{
+    text-align: center;
+    margin-bottom: 6rem 0;
+}
+.two .two-text h3{
+    font-size: 13px;
+    color: #ecb807;
+}
+.two h2{
+    font-size: 38px;
+    color: #212529;
+}
+.two .box{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.two .box h4{ 
+    font-size: 24px;
+    color: #ffffff;
+
+}
+.two .box p{
+color: #ffffffb3;
+font-size: 16px;
+}
+.three{
+    background-image: url(https://c.wallhere.com/photos/36/93/trees_winter_bw_fog_blackwhite_woods_december_forrest-936727.jpg!d);
+    padding: 10rem 0;
+    background-position:center ;
+    background-size: auto;
+    text-align: center;
+}
+.three h2{
+color: #ecb807;
+font-size: 60px;
+margin-bottom: 50px;
+}
+.three a3{
+    font-size: 18px;
+    background-color:#212529;
+    padding: 20px 40px;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none
+}
+.four{
+    padding: 6rem 0;
+    overflow: hidden;
+}
+.four-text{
+    text-align: center;
+    margin-bottom: 60px ;
+}
+.four-text h3{
+    font-size: 17px;
+    color: #ecb807;
+}
+.four-text h2{
+    font-size: 38px;
+    color: #212529;
+}
+.four .all{
+    width: 80%;
+    margin: auto;
+}
+.four .box:hover{
+    transform: scale(0.7);
+}
+
+ .four .box{
+     float: left;
+     width: 50%;
+     position: relative;
+     transition: 0.7s;
+ }
+ .four .box img{
+     width: 100%;
+     vertical-align: bottom;
+ }
+ .four .box-text{
+     position: absolute ;
+     left: 13%;
+     bottom: 30%;
+     color: #ffffff;
+ }
+ .four .box-text h2{
+     font-size: 15px;
+     margin-bottom: 8px;
+ }
+ .four .box-text p{
+     font-size: 20px;
+ }
+ .five {
+background-color: #1d807f;
+text-align: center;
+padding: 8rem 0;
+overflow: hidden;
+}
+.five h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+
+}
+.five a{
+    font-size: 18px;
+    background-color:#ffffff;
+    padding: 20px 40px;
+    color: #212529;
+    border-radius: 6px;
+    text-decoration: none
+
+}
+.five a4{
+    font-size: 18px;
+    background-color:#212529;
+    padding: 20px 40px;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none
+}
+.map{
+    margin-bottom: 50px;
+}
+.social{
+    text-align: center;
+    color: #fff;
+    margin: 0 50px 50px;
+}
+.facebook{
+    border-radius: 100%;
+    background-color: #1d807f;
+    padding: 20px 25px;
+    font-size: 25px;
+}
+.twitter{
+    border-radius: 100%;
+    background-color: #1d807f;
+    padding: 20px 20px;
+    font-size: 25px;
+}
+.github{
+    border-radius: 100%;
+    background-color: #1d807f;
+    padding: 20px 20px;
+    font-size:25px;
+}
+.theend p{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #6c757d;
+}
